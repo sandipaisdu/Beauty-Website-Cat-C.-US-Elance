@@ -2,3 +2,10 @@
 margin:0;
 padding:0;
 }
+
+.heighlighted_text{
+	color:#932cbe;
+}
+.header_area h1{
+	font-size: 55px;
+}
