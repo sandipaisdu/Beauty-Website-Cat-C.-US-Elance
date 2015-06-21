@@ -3,13 +3,174 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'gurmukhi_mnregular';
+    src: url('fonts/gurmukhimn-webfont.eot');
+    src: url('fonts/gurmukhimn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gurmukhimn-webfont.woff2') format('woff2'),
+         url('fonts/gurmukhimn-webfont.woff') format('woff'),
+         url('fonts/gurmukhimn-webfont.ttf') format('truetype'),
+         url('fonts/gurmukhimn-webfont.svg#gurmukhi_mnregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	font-family: 'gurmukhi_mnregular';
+}
+
+
+
 .heighlighted_text {
     color: #932cbe;
+    font-style: italic;
 }
+/**********************************************************************************************************
+Header Area
+ ***********************************************************************************************************/
 
 .header_area h1 {
     font-size: 55px;
 }
+.logo img{
+	height: 200px;
+}
+.tagline p{
+	  font-size: 25px;
+}
+
+
+
+
+
+
+
+/**********************************************************************************************************
+Header Area
+ ***********************************************************************************************************/
+
+/**********************************************************************************************************
+Services Area
+ ***********************************************************************************************************/
+ .product_description{
+
+ 	margin-top: 174px;
+ }
+ .list_description p{
+	  font-size: 21px;
+}
+.services h2 {
+  font-size: 43px;
+}
+
+
+.services_area ul{ 
+
+}
+.services_area ul li{
+	color: #932cbe;
+	font-size: 20px;
+}
+.services_area ul li span{
+	color:#343434;
+}
+
+.results p{
+	font-size: 18px;
+	font-weight: bold;
+	border-color: #616161;
+	margin-top: 5px;
+}
+
+
+.services_area img{
+	min-width: 100%;
+}
+
+
+
+
+
+
+/**********************************************************************************************************
+Services Area
+ ***********************************************************************************************************/
+
+ /**********************************************************************************************************
+Products Area
+ ***********************************************************************************************************/
+.products_area img {
+  margin-top: -325px;
+  height: 800px;
+  min-width: 100%;
+}
+.button {
+  margin-top: 30px;
+}
+.products_area a {
+	background-color: #fad12c;
+  color: #000;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 24px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+.video_1{
+	margin-top: 150px;
+}
+.advert{
+	font-size: 40px;
+  text-align: center;
+}
+.bold{
+	font-weight: bold;
+}
+
+ /**********************************************************************************************************
+Products  Area
+ ***********************************************************************************************************/
+
+
+
+
+ /**********************************************************************************************************
+Witness  Area
+ ***********************************************************************************************************/
+.percent_description{
+	font-size: 20px;
+
+}
+.percent_description h4{
+	font-size: 20px;
+  font-weight: bold;
+}
+.witnesss_area ul{}
+.witnesss_area ul li{
+	  font-size: 20px;
+  text-align: justify;
+  font-weight: bold;
+  color: #7c7c7c;
+  list-style: none;
+  line-height: 70px;
+}
+.witnesss_area ul li span{
+	font-weight: bold;
+	font-size: 30px;
+	font-style: normal;
+}
+
+
+
+ /**********************************************************************************************************
+Witness  Area
+ ***********************************************************************************************************/
+
+
+
+
+
 
 .animation_area {
     background: url('img/vertical_underline.png') no-repeat;
