@@ -62,7 +62,7 @@ Services Area
 	  font-size: 21px;
 }
 .services h2 {
-  font-size: 43px;
+  font-size: 41px;
 }
 
 
@@ -101,9 +101,15 @@ Services Area
  /**********************************************************************************************************
 Products Area
  ***********************************************************************************************************/
+.products_area{
+	margin-bottom: 50px;
+	background-image: url('img/horizontal_underline.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
 .products_area img {
-  margin-top: -325px;
-  height: 800px;
+  margin-top: -280px;
+  height: 700px;
   min-width: 100%;
 }
 .button {
@@ -116,11 +122,20 @@ Products Area
   padding: 10px;
   font-weight: bold;
   font-size: 24px;
-  border: 2px solid #ffffff;
+  border: 6px solid #ffffff;
   border-radius: 10px;
+}
+.button img{
+	width: 50px;
+	height: 50px;
+}
+.button h3{
+font-style: italic;
+margin-top: 30px;
 }
 .video_1{
 	margin-top: 150px;
+	margin-bottom: 50px;
 }
 .advert{
 	font-size: 40px;
@@ -140,9 +155,19 @@ Products  Area
  /**********************************************************************************************************
 Witness  Area
  ***********************************************************************************************************/
+.witnesss_area {
+	  background-image: url('img/horizontal_underline.png');
+	  background-repeat: no-repeat;
+	  background-position: bottom;
+	  margin-bottom: 20px;
+	  padding-bottom: 20px;
+}
+.witnesss_area h2 {
+  margin-bottom: 40px;
+}
 .percent_description{
 	font-size: 20px;
-
+  margin-left: 15px;
 }
 .percent_description h4{
 	font-size: 20px;
@@ -155,7 +180,7 @@ Witness  Area
   font-weight: bold;
   color: #7c7c7c;
   list-style: none;
-  line-height: 70px;
+  line-height: 45px;
 }
 .witnesss_area ul li span{
 	font-weight: bold;
@@ -167,6 +192,33 @@ Witness  Area
 
  /**********************************************************************************************************
 Witness  Area
+ ***********************************************************************************************************/
+
+
+ /**********************************************************************************************************
+product_description_area
+ ***********************************************************************************************************/
+.product_description_area{
+	min-height: 600px;
+}
+.product_description_area h4{
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.small_1{
+ text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.small_2{
+	text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+ /**********************************************************************************************************
+product_description_area
  ***********************************************************************************************************/
 
 
