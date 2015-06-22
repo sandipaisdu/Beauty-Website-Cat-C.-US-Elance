@@ -6,26 +6,44 @@
 @font-face {
     font-family: 'gurmukhi_mnregular';
     src: url('fonts/gurmukhimn-webfont.eot');
-    src: url('fonts/gurmukhimn-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/gurmukhimn-webfont.woff2') format('woff2'),
-         url('fonts/gurmukhimn-webfont.woff') format('woff'),
-         url('fonts/gurmukhimn-webfont.ttf') format('truetype'),
-         url('fonts/gurmukhimn-webfont.svg#gurmukhi_mnregular') format('svg');
+    src: url('fonts/gurmukhimn-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/gurmukhimn-webfont.woff2') format('woff2'), url('fonts/gurmukhimn-webfont.woff') format('woff'), url('fonts/gurmukhimn-webfont.ttf') format('truetype'), url('fonts/gurmukhimn-webfont.svg#gurmukhi_mnregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
-}
-body{
-	font-family: 'gurmukhi_mnregular';
-}
-.top{
-	background-image: url('img/bg.jpg');
 }
 
+@font-face {
+    font-family: 'kohinoor_devanagaridemi';
+    src: url('fonts/kohinoordevanagari-demi-webfont.eot');
+    src: url('fonts/kohinoordevanagari-demi-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/kohinoordevanagari-demi-webfont.woff2') format('woff2'), url('fonts/kohinoordevanagari-demi-webfont.woff') format('woff'), url('fonts/kohinoordevanagari-demi-webfont.ttf') format('truetype'), url('fonts/kohinoordevanagari-demi-webfont.svg#kohinoor_devanagaridemi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'gurmukhi_mnregular';
+}
+
+.top {
+    background-image: url('img/bg.jpg');
+    border-bottom: 5px solid transparent;
+    border-top-width: 0px;
+    -webkit-border-image: url('img/horizontal_underline.png') 30 stretch;
+    /* Safari 3.1-5 */
+    
+    -o-border-image: url('img/horizontal_underline.png') 30 stretch;
+    /* Opera 11-12.1 */
+    
+    border-image: url('img/horizontal_underline.png') 30 stretch;
+}
 
 .heighlighted_text {
-    color: #932cbe;
-    font-style: italic;
+    color: #932cbe !important;
+    font-style: italic !important;
+
+}
+.bold{
+	font-weight: bold !important;
+	font-style: normal !important;
 }
 /**********************************************************************************************************
 Header Area
@@ -34,233 +52,249 @@ Header Area
 .header_area h1 {
     font-size: 55px;
 }
-.logo img{
-	height: 200px;
-}
-.tagline p{
-	  font-size: 25px;
+
+.logo img {
+    height: 200px;
 }
 
-
-
-
-
-
-
+.tagline p {
+    font-size: 25px;
+}
 /**********************************************************************************************************
 Header Area
  ***********************************************************************************************************/
-
 /**********************************************************************************************************
 Services Area
  ***********************************************************************************************************/
- .product_description{
 
- 	margin-top: 174px;
- }
- .list_description p{
-	  font-size: 21px;
+.product_description {
+    margin-top: 174px;
 }
+
+.list_description p {
+    font-size: 21px;
+}
+
 .services h2 {
-  font-size: 41px;
+    font-size: 41px;
 }
 
+.services_area ul {}
 
-.services_area ul{ 
-
-}
-.services_area ul li{
-	color: #932cbe;
-	font-size: 20px;
-}
-.services_area ul li span{
-	color:#343434;
+.services_area ul li {
+    color: #932cbe;
+    font-size: 20px;
 }
 
-.results p{
-	font-size: 18px;
-	font-weight: bold;
-	border-color: #616161;
-	margin-top: 5px;
+.services_area ul li span {
+    color: #343434;
 }
 
-
-.services_area img{
-	min-width: 100%;
+.results p {
+    font-size: 18px;
+    font-weight: bold;
+    border-color: #616161;
+    margin-top: 5px;
 }
 
+.services_area img {
+    min-width: 100%;
+}
 
-
-
-
-
+.plus_sign {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px !important;
+}
 /**********************************************************************************************************
 Services Area
  ***********************************************************************************************************/
-
- /**********************************************************************************************************
+/**********************************************************************************************************
 Products Area
  ***********************************************************************************************************/
-.products_area{
-	margin-bottom: 50px;
-	background-image: url('img/horizontal_underline.png');
-	background-repeat: no-repeat;
-	background-position: bottom;
-}
-.products_area img {
-  margin-top: -280px;
-  height: 700px;
-  min-width: 100%;
-}
-.button {
-  margin-top: 30px;
-}
-.products_area a {
-	background-color: #fad12c;
-  color: #000;
-  text-decoration: none;
-  padding: 10px;
-  font-weight: bold;
-  font-size: 24px;
-  border: 6px solid #ffffff;
-  border-radius: 10px;
-}
-.button img{
-	width: 50px;
-	height: 50px;
-}
-.button h3{
-font-style: italic;
-margin-top: 30px;
-}
-.video_1{
-	margin-top: 150px;
-	margin-bottom: 50px;
-}
-.advert{
-	font-size: 40px;
-  text-align: center;
-}
-.bold{
-	font-weight: bold;
+
+.products_area {
+    margin-bottom: 50px;
+    border-bottom: 5px solid transparent;
+    border-top-width: 0px;
+    -webkit-border-image: url('img/horizontal_underline.png') 30 stretch;
+    /* Safari 3.1-5 */
+    
+    -o-border-image: url('img/horizontal_underline.png') 30 stretch;
+    /* Opera 11-12.1 */
+    
+    border-image: url('img/horizontal_underline.png') 30 stretch;
 }
 
- /**********************************************************************************************************
+.products_area img {
+    margin-top: -280px;
+    height: 700px;
+    min-width: 70%;
+}
+
+.button {
+    margin-top: 30px;
+}
+
+.products_area a {
+    background-color: #fad12c;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 24px;
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+}
+
+.button img {
+    width: 50px;
+    height: 50px;
+}
+
+.button h3 {
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.video_1 {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.advert {
+    font-size: 40px;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.first_button {
+    background-image: url('img/button_arrow.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+/**********************************************************************************************************
+}
 Products  Area
  ***********************************************************************************************************/
-
-
-
-
- /**********************************************************************************************************
+/**********************************************************************************************************
 Witness  Area
  ***********************************************************************************************************/
+
 .witnesss_area {
-	  background-image: url('img/horizontal_underline.png');
-	  background-repeat: no-repeat;
-	  background-position: bottom;
-	  margin-bottom: 20px;
-	  padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
+
 .witnesss_area h2 {
-  margin-bottom: 40px;
-}
-.percent_description{
-	font-size: 20px;
-  margin-left: 15px;
-}
-.percent_description h4{
-	font-size: 20px;
-  font-weight: bold;
-}
-.witnesss_area ul{}
-.witnesss_area ul li{
-	  font-size: 20px;
-  text-align: justify;
-  font-weight: bold;
-  color: #7c7c7c;
-  list-style: none;
-  line-height: 45px;
-}
-.witnesss_area ul li span{
-	font-weight: bold;
-	font-size: 30px;
-	font-style: normal;
+    margin-bottom: 40px;
 }
 
+.percent_description {
+    font-size: 20px;
+    margin-left: 15px;
+}
 
+.percent_description h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
 
- /**********************************************************************************************************
+.witnesss_area ul {}
+
+.witnesss_area ul li {
+    font-size: 20px;
+    text-align: justify;
+    font-weight: bold;
+    color: #7c7c7c;
+    list-style: none;
+    line-height: 45px;
+}
+
+.witnesss_area ul li span {
+    font-weight: bold;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.kohinoor {
+    font-family: 'kohinoor_devanagaridemi';
+}
+/**********************************************************************************************************
 Witness  Area
  ***********************************************************************************************************/
-
-
- /**********************************************************************************************************
-product_description_area
- ***********************************************************************************************************/
-.product_description_area{
-	min-height: 600px;
-	
-}
-.product_description_area h4{
-	font-weight: bold;
-	margin-bottom: 30px;
-}
-.small_1{
-	margin-top: 55px;
-}
-.product_description_area p{
-font-size: 20px;
-line-height: 30px;
-}
-.product_details{
-	padding: 0px 15px;
-}
-.plus{
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-image: url('img/plus_bg.png');
-}
-
- /**********************************************************************************************************
+/**********************************************************************************************************
 product_description_area
  ***********************************************************************************************************/
 
+.product_description_area {
+    min-height: 600px;
+}
 
- /**********************************************************************************************************
+.product_description_area h4 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.small_1 {
+    margin-top: 55px;
+}
+
+.product_description_area p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.product_details {
+    padding: 0px 15px;
+}
+
+.plus {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('img/plus_bg.png');
+}
+/**********************************************************************************************************
+product_description_area
+ ***********************************************************************************************************/
+/**********************************************************************************************************
 Animation  Area Starts
  ***********************************************************************************************************/
+
 .inner_background {
     background: url('img/vertical_underline.png') no-repeat;
     background-position: center;
-      min-height: 500px;
-
-}
-.inner_background p{
-	font-size: 20px;
+    min-height: 500px;
 }
 
- /**********************************************************************************************************
+.inner_background p {
+    font-size: 20px;
+}
+/**********************************************************************************************************
 }
 Animation  Area Ends
  ***********************************************************************************************************/
-
-
-
-
-
-
-
 /**********************************************************************************************************
 Trial Area
  ***********************************************************************************************************/
 
 .trial-area {
-    min-height: 100px;
-    border-top: 2px solid #ddd;
-    border-bottom: 2px solid #ddd;
+    min-height: 150px;
     margin-bottom: 60px;
     margin-top: 60px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url('img/horizontal_underline.png') 30 stretch;
+    /* Safari 3.1-5 */
+    
+    -o-border-image: url('img/horizontal_underline.png') 30 stretch;
+    /* Opera 11-12.1 */
+    
+    border-image: url('img/horizontal_underline.png') 30 stretch;
 }
 
 .small_trial_button {
@@ -268,26 +302,52 @@ Trial Area
     padding: 5px 15px;
     border: none;
     margin-top: 12px;
+    font-weight: 800;
 }
 /**********************************************************************************************************
 Trial Area
  ***********************************************************************************************************/
 /**********************************************************************************************************
-Coustomers Love Area
+Clients Area
  ***********************************************************************************************************/
+.clients_area{
+	border-bottom: 5px solid transparent;
+	border-top-width: 0px;
+    -webkit-border-image: url('img/horizontal_underline.png') 30 stretch;
+    /* Safari 3.1-5 */
+    
+    -o-border-image: url('img/horizontal_underline.png') 30 stretch;
+    /* Opera 11-12.1 */
+    
+    border-image: url('img/horizontal_underline.png') 30 stretch;
+    padding: 15px;
+}
+
 /**********************************************************************************************************
-Coustomers Love Area
+Clients Area
  ***********************************************************************************************************/
 /**********************************************************************************************************
 Customers Love Area
  ***********************************************************************************************************/
+ .customer_video{
+ 	min-height: 500px;
+ }
+ .row.customer_video p {
+  font-size: 18px;
+}
+.last_eye{
+	margin-top: 20px;
+  margin-bottom: 10px;
+}
 /**********************************************************************************************************
 Customers Love Area
  ***********************************************************************************************************/
 /**********************************************************************************************************
 More Overviews Area
  ***********************************************************************************************************/
-
+.reviews_area{
+	margin-bottom: 30px;
+}
 .scrolled_div {
     height: 400px;
     border: 2px solid #a3a3a3;
