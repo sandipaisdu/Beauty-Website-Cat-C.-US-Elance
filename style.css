@@ -200,22 +200,27 @@ product_description_area
  ***********************************************************************************************************/
 .product_description_area{
 	min-height: 600px;
+	
 }
 .product_description_area h4{
 	font-weight: bold;
 	margin-bottom: 30px;
 }
 .small_1{
- text-align: center;
-    display: table-cell;
-    vertical-align: middle;
+	margin-top: 55px;
 }
-.small_2{
-	text-align: center;
-    display: table-cell;
-    vertical-align: middle;
+.product_description_area p{
+font-size: 20px;
+line-height: 30px;
 }
-
+.product_details{
+	padding: 0px 15px;
+}
+.plus{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url('img/plus_bg.png');
+}
 
  /**********************************************************************************************************
 product_description_area
@@ -236,6 +241,7 @@ Animation  Area Starts
 }
 
  /**********************************************************************************************************
+}
 Animation  Area Ends
  ***********************************************************************************************************/
 
