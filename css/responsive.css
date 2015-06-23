@@ -1,24 +1,92 @@
-/* Default Layout: 992px.  */
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {}
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+}
+/* Small Devices, Tablets */
 
 
-/* Tablet Layout: 768px. */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .logo img {
+        margin: 0 auto;
+    }
+
+.header_area h1 {
+  font-size: 40px;
+}
+
+.product_description {
+  margin-top: 0px;
+}
+
+.services h2 {
+  text-align: center;
+}
+.products_area img {
+  margin-top: 0px;
+
+}
+
+.inner_background {
+  background:none;
+}
 
 }
 
 
 
-/* Mobile Layout: 320px. */
 
-@media only screen and (max-width: 767px) {
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    .logo img {
+        margin: 0 auto;
+    }
+    .header_area h1 {
+  font-size: 35px;
+}
+.product_description {
+  margin-top: 0px;
+}
+.services h2 {
+  text-align: center;
+}
+.products_area img {
+  margin-top: 0px;
 
 }
+.witnesss_area img {
+  min-width: 100%;
+}
+.inner_background {
+  background:none;
+}
 
+.video_1 {
+  margin-top: 30px;
 
-
-/* Wide Mobile Layout: 480px. */
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
 
 }

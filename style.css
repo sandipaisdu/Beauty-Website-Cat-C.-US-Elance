@@ -266,8 +266,9 @@ Animation  Area Starts
 
 .inner_background {
     background: url('img/vertical_underline.png') no-repeat;
-    background-position: center;
+    background-position: bottom center;
     min-height: 500px;
+      background-size: 5px 60%;
 }
 
 .inner_background p {
@@ -330,14 +331,13 @@ Clients Area
 Customers Love Area
  ***********************************************************************************************************/
  .customer_video{
- 	min-height: 500px;
+ 	padding-bottom: 80px;
  }
  .row.customer_video p {
   font-size: 18px;
 }
 .last_eye{
-	margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 5px;
 }
 /**********************************************************************************************************
 Customers Love Area
