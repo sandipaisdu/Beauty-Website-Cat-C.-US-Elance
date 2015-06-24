@@ -42,6 +42,9 @@
 .row.customer_video p {
   margin-top: 20px;
 }
+.plus {
+  background: none;
+}
 }
 /* Small Devices, Tablets */
 
@@ -83,10 +86,11 @@
   background:none;
 }
 .services_area img {
-  height: 190px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   float: none;
+  width: 90%
 }
 .advert {
   text-align: center;
@@ -111,6 +115,9 @@
 }
 .trial_button_area {
   padding: 20px;
+}
+.plus {
+  background: none;
 }
 }
 
@@ -189,7 +196,9 @@
 .list_description p {
   padding: 10px;
 }
-
+.plus {
+  background: none;
+}
 }
 
 
