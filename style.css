@@ -19,7 +19,15 @@
     font-style: normal;
 }
 
-body {
+@font-face {
+    font-family: 'gurmukhi_mnbold';
+    src: url('fonts/gurmukhimn-bold-webfont.eot');
+    src: url('fonts/gurmukhimn-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/gurmukhimn-bold-webfont.woff2') format('woff2'), url('fonts/gurmukhimn-bold-webfont.woff') format('woff'), url('fonts/gurmukhimn-bold-webfont.ttf') format('truetype'), url('fonts/gurmukhimn-bold-webfont.svg#gurmukhi_mnbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+fonts/ body {
     font-family: 'gurmukhi_mnregular';
 }
 
@@ -51,17 +59,27 @@ Header Area
 
 .header_area h1 {
     font-size: 45px;
+    font-family: 'gurmukhi_mnbold';
 }
 
 .logo img {
-    height: 130px;
+    height: 160px;
 }
+
 .row.header {
-  margin-top: 30px;
+    margin-top: 30px;
+}
+
+.at_any_age {
+    margin-right: 65px;
 }
 
 .tagline p {
     font-size: 20px;
+}
+
+.tagline {
+    margin-left: 115px;
 }
 /**********************************************************************************************************
 Header Area
@@ -69,8 +87,6 @@ Header Area
 /**********************************************************************************************************
 Services Area
  ***********************************************************************************************************/
-
-
 
 .product_description {
     margin-top: 85px;
@@ -82,13 +98,20 @@ Services Area
 
 .services h2 {
     font-size: 30px;
+    font-family: 'gurmukhi_mnbold';
 }
 
-.services_area ul {}
+#left_list{
+    margin-left: 50px;
+}
+#right_list{
+
+}
 
 .services_area ul li {
     color: #932cbe;
     font-size: 17px;
+    list-style-image: url('img/dot.png');
 }
 
 .services_area ul li span {
@@ -133,10 +156,9 @@ Products Area
 }
 
 .products_area img {
-    margin-top: -233px;
-    height: 600px;
-    min-width: 60%;
-    float: right;
+  margin-top: -233px;
+  min-width: 100%;
+  float: right;
 }
 
 .button {
@@ -179,10 +201,10 @@ Products Area
     font-weight: bold;
 }
 
-.first_button {
+.first_button {/*
     background-image: url('img/button_arrow.png');
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: right top;*/
 }
 /**********************************************************************************************************
 }
@@ -199,6 +221,7 @@ Witness  Area
 
 .witnesss_area h2 {
     margin-bottom: 40px;
+    font-family: 'gurmukhi_mnbold';
 }
 
 .percent_description {
@@ -217,7 +240,7 @@ Witness  Area
 }
 
 .witnesss_area ul li {
-    font-size: 20px;
+      font-size: 17px;
     text-align: justify;
     font-weight: bold;
     color: #7c7c7c;
@@ -233,7 +256,6 @@ Witness  Area
 
 .witnesss_area img {
     margin-bottom: 10px;
-
 }
 
 .kohinoor {
@@ -253,6 +275,8 @@ product_description_area
 .product_description_area h4 {
     font-weight: bold;
     margin-bottom: 30px;
+    font-size: 20px;
+    margin-top: 30px;
 }
 
 .small_1 {
@@ -261,7 +285,7 @@ product_description_area
 
 .product_description_area p {
     font-size: 17px;
-    padding: 10px;
+      padding: 0px 30px;
 }
 
 .product_details {
@@ -269,7 +293,7 @@ product_description_area
 }
 
 .plus {
-    background-position: center center;
+      background-position: center 370px;
     background-repeat: no-repeat;
     background-image: url('img/plus_bg.png');
 }
@@ -286,13 +310,15 @@ Animation  Area Starts
     min-height: 500px;
     background-size: 5px 60%;
 }
+
 .row.inner_background img {
-  max-width: 80%;
-  height: 300px;
+    max-width: 80%;
+    height: 300px;
 }
+
 .inner_background p {
     font-size: 17px;
-    padding: 10px;
+    padding: 0px 30px;
 }
 /**********************************************************************************************************
 }
@@ -324,6 +350,7 @@ Trial Area
     border: none;
     margin-top: 12px;
     font-weight: 800;
+    color: #000;
 }
 /**********************************************************************************************************
 Trial Area
@@ -335,8 +362,8 @@ Clients Area
 .clients_area {
     border-bottom: 5px solid transparent;
     border-top-width: 0px;
-    -webkit-border-image: url('img/horizontal_underline.png') 30 stretch;  
-    -o-border-image: url('img/horizontal_underline.png') 30 stretch;   
+    -webkit-border-image: url('img/horizontal_underline.png') 30 stretch;
+    -o-border-image: url('img/horizontal_underline.png') 30 stretch;
     border-image: url('img/horizontal_underline.png') 30 stretch;
     padding: 15px;
 }
@@ -350,9 +377,10 @@ Clients Area
 /**********************************************************************************************************
 Customers Love Area
  ***********************************************************************************************************/
+
 .customers_love_area h2 {
-  margin-top: 25px;
-  margin-bottom: 25px;
+      margin-top: 35px;
+    margin-bottom: 25px;
 }
 
 .customer_video {
@@ -366,12 +394,14 @@ Customers Love Area
 .last_eye {
     margin-top: 5px;
 }
+
 .customer_video p {
-  font-size: 16px !important;
-  padding: 0px 10px;
+    font-size: 16px !important;
+    padding: 0px 10px;
 }
+
 .customer_video img {
-  width: 60%;
+    width: 60%;
 }
 /**********************************************************************************************************
 Customers Love Area
@@ -400,9 +430,11 @@ More Overviews Area
 /**********************************************************************************************************
  Trial Button Area
  ***********************************************************************************************************/
+
 .trial_button_area {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
+
 .footer_trial_button {
     background-color: #fad12c;
     padding: 15px;
@@ -441,115 +473,116 @@ More Overviews Area
 /**********************************************************************************************************
  Footer Styles
  ***********************************************************************************************************/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /***********************************************************************************************************
 Trial Page Styles
  ***********************************************************************************************************/
- table{
+
+table {
     color: #5b7d9d;
     font-weight: 600;
     margin-top: 30px;
-      min-height: 418px;
- }
-.table>tbody>tr>th{
-    border-top: none;
-      border-bottom: 1px solid #ddd;
+    min-height: 418px;
 }
-.limited{
-    background: #7c50a1;
-      margin-top: 30px;
-       color:#fff;
-}
-.limited h2 {
-  font-size: 20px;
-  font-weight: bold;
-}
-.information{
-    background: #9a6fbf;
-     color:#fff;
-}
-.information h2 {
-  font-size: 18px;
 
+.table>tbody>tr>th {
+    border-top: none;
+    border-bottom: 1px solid #ddd;
 }
-.myform{
-    border:1px solid #507496;
+
+.limited {
+    background: #7c50a1;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.limited h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.information {
+    background: #9a6fbf;
+    color: #fff;
+}
+
+.information h2 {
+    font-size: 18px;
+}
+
+.myform {
+    border: 1px solid #507496;
     padding: 10px;
 }
-input{
+
+input {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .contact_form a {
-  text-decoration: none;
-  padding: 8px 30px;
-  border-radius: 8px;
-  background: #7c51a7;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #fff;
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 8px;
+    background: #7c51a7;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
 }
-.contact_form p{
-    color:#7491ac;
+
+.contact_form p {
+    color: #7491ac;
 }
-.contact_form{
+
+.contact_form {
     padding: 10px;
 }
-#contact{
+
+#contact {
     float: right;
 }
+
 #contact.stick {
-position: fixed;
-  top: 0;
-  margin-left: 565px;
-  width: 400px;
-}
-button{
-  margin-bottom: 20px;
-  padding: 8px 30px;
-  border-radius: 8px;
-  background: #7c51a7;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #fff;
-  border: none;
-}
-.terms{
-    color:#335d85;
-}
-.terms{
-margin-bottom: 30px;
-padding: 15px;
-}
-.large_font{
-      font-size: 16px;
+    position: fixed;
+    top: 0;
+    margin-left: 565px;
+    width: 400px;
 }
 
+button {
+    margin-bottom: 20px;
+    padding: 8px 30px;
+    border-radius: 8px;
+    background: #7c51a7;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+}
 
+.terms {
+    color: #335d85;
+}
 
+.terms {
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.large_font {
+    font-size: 16px;
+}
 /*Terms Page*/
-.terms_area{
+
+.terms_area {
     margin-bottom: 30px;
 }
-.terms_button{
+
+.terms_button {
     padding: 15px;
     margin-bottom: 30px;
     margin-top: 30px;
 }
+
 .terms_area h2 {
     color: #1C436E;
     font-size: 20px;
@@ -562,30 +595,30 @@ padding: 15px;
     font-family: 'kohinoor_devanagaridemi';
     font-size: 16px;
 }
-
-
 /*Returns page  */
-.return_button{
+
+.return_button {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.trial_image{
+
+.trial_image {
     margin-top: 30px;
 }
-.return_area h2{
+
+.return_area h2 {
     color: #1C436E;
     font-size: 20px;
     font-weight: bold;
     font-family: 'kohinoor_devanagaridemi';
-
 }
-.return_area{
+
+.return_area {
     margin-bottom: 30px;
 }
-.return_area p{
+
+.return_area p {
     color: #245782;
     font-family: 'kohinoor_devanagaridemi';
     font-size: 16px;
 }
-
-
