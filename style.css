@@ -441,3 +441,87 @@ More Overviews Area
 /**********************************************************************************************************
  Footer Styles
  ***********************************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************************************************************************************************
+Trial Page Styles
+ ***********************************************************************************************************/
+ table{
+    color: #5b7d9d;
+    font-weight: 600;
+    margin-top: 30px;
+      min-height: 418px;
+ }
+.table>tbody>tr>th{
+    border-top: none;
+      border-bottom: 1px solid #ddd;
+}
+.limited{
+    background: #7c50a1;
+      margin-top: 30px;
+       color:#fff;
+}
+.limited h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.information{
+    background: #9a6fbf;
+     color:#fff;
+}
+.information h2 {
+  font-size: 18px;
+
+}
+.myform{
+    border:1px solid #507496;
+    padding: 10px;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact_form a {
+  text-decoration: none;
+  padding: 8px 30px;
+  border-radius: 8px;
+  background: #7c51a7;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+.contact_form p{
+    color:#7491ac;
+}
+.contact_form{
+    padding: 10px;
+}
+.contact{
+    position: static;
+}
+button{
+      text-decoration: none;
+  padding: 8px 30px;
+  border-radius: 8px;
+  background: #7c51a7;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  border:none;
+}
+.terms{
+    color:#335d85;
+}
