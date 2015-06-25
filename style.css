@@ -287,7 +287,8 @@ Animation  Area Starts
     background-size: 5px 60%;
 }
 .row.inner_background img {
-  min-width: 80%;
+  max-width: 80%;
+  height: 300px;
 }
 .inner_background p {
     font-size: 17px;
