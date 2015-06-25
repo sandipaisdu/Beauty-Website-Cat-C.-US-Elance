@@ -550,14 +550,42 @@ padding: 15px;
     margin-bottom: 30px;
     margin-top: 30px;
 }
-.terms_area h2{
-    color:#1C436E;
+.terms_area h2 {
+    color: #1C436E;
     font-size: 20px;
     font-weight: bold;
     font-family: 'kohinoor_devanagaridemi';
 }
-.terms_area p{
-color: #245782;
-  font-family: 'kohinoor_devanagaridemi';
-  font-size: 16px;
+
+.terms_area p {
+    color: #245782;
+    font-family: 'kohinoor_devanagaridemi';
+    font-size: 16px;
 }
+
+
+/*Returns page  */
+.return_button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.trial_image{
+    margin-top: 30px;
+}
+.return_area h2{
+    color: #1C436E;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'kohinoor_devanagaridemi';
+
+}
+.return_area{
+    margin-bottom: 30px;
+}
+.return_area p{
+    color: #245782;
+    font-family: 'kohinoor_devanagaridemi';
+    font-size: 16px;
+}
+
+

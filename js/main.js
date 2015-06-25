@@ -19,3 +19,4 @@ window.onscroll = function (e) {
     left.className = ''; 
   }
 }
+
