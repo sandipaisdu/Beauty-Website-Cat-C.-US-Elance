@@ -33,15 +33,15 @@ fonts/ body {
 
 .top {
     background-image: url('img/bg.jpg');
+    /*
     border-bottom: 5px solid transparent;
     border-top-width: 0px;
     -webkit-border-image: url('img/horizontal_underline.png') 30 stretch;
-    /* Safari 3.1-5 */
     
     -o-border-image: url('img/horizontal_underline.png') 30 stretch;
-    /* Opera 11-12.1 */
+    /* Opera 11-12.1 
     
-    border-image: url('img/horizontal_underline.png') 30 stretch;
+    border-image: url('img/horizontal_underline.png') 30 stretch;*/
 }
 
 .heighlighted_text {
@@ -144,15 +144,17 @@ Products Area
 
 .products_area {
     margin-bottom: 50px;
+    background-image: url('img/horizontal_underline.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    /*
     border-bottom: 5px solid transparent;
     border-top-width: 0px;
     -webkit-border-image: url('img/horizontal_underline.png') 30 stretch;
-    /* Safari 3.1-5 */
-    
+ 
     -o-border-image: url('img/horizontal_underline.png') 30 stretch;
-    /* Opera 11-12.1 */
-    
-    border-image: url('img/horizontal_underline.png') 30 stretch;
+   
+    border-image: url('img/horizontal_underline.png') 30 stretch;*/
 }
 
 .products_area img {
@@ -217,6 +219,9 @@ Witness  Area
 .witnesss_area {
     margin-bottom: 20px;
     padding-bottom: 20px;
+    background-image: url('img/horizontal_underline.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
 }
 
 .witnesss_area h2 {
@@ -303,7 +308,12 @@ product_description_area
 /**********************************************************************************************************
 Animation  Area Starts
  ***********************************************************************************************************/
-
+.animation_area{
+    background-image: url('img/horizontal_underline.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 40px;
+}
 .inner_background {
     background: url('img/vertical_underline.png') no-repeat;
     background-position: bottom center;
@@ -331,17 +341,22 @@ Trial Area
 .trial-area {
     min-height: 150px;
     margin-bottom: 60px;
+    background-image: url('img/horizontal_underline.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    margin-top: 30px;
+    /*
     margin-top: 60px;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent;
     padding: 15px;
     -webkit-border-image: url('img/horizontal_underline.png') 30 stretch;
-    /* Safari 3.1-5 */
+
     
     -o-border-image: url('img/horizontal_underline.png') 30 stretch;
-    /* Opera 11-12.1 */
+
     
-    border-image: url('img/horizontal_underline.png') 30 stretch;
+    border-image: url('img/horizontal_underline.png') 30 stretch;*/
 }
 
 .small_trial_button {
@@ -360,12 +375,17 @@ Clients Area
  ***********************************************************************************************************/
 
 .clients_area {
+    background-image: url('img/horizontal_underline.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    /*
     border-bottom: 5px solid transparent;
     border-top-width: 0px;
     -webkit-border-image: url('img/horizontal_underline.png') 30 stretch;
     -o-border-image: url('img/horizontal_underline.png') 30 stretch;
-    border-image: url('img/horizontal_underline.png') 30 stretch;
-    padding: 15px;
+    border-image: url('img/horizontal_underline.png') 30 stretch;*/
+    padding-bottom: 55px;
+    
 }
 
 .clients_area img {
