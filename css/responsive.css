@@ -1,6 +1,13 @@
 /* Large Devices, Wide Screens */
 
-@media only screen and (min-width: 993px) and (max-width: 1200px) {}
+@media only screen and (min-width: 993px){
+        .contact_form {
+        display: block;
+    }
+    .mobile_form {
+        display: none;
+    }
+}
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
@@ -47,11 +54,18 @@
         margin-left: 0px;
     }
     .return_area {
-  padding: 15px;
-}
-.terms_area {
-  padding: 15px;
-}
+        padding: 15px;
+    }
+    .terms_area {
+        padding: 15px;
+    }
+    .contact_form {
+        display: none;
+    }
+    .mobile_form {
+        display: block;
+        margin-bottom: 30px;
+    }
 }
 /* Small Devices, Tablets */
 
@@ -84,7 +98,7 @@
         margin-left: auto;
         margin-right: auto;
         float: none;
-        width: 90%
+          min-width: 70%;
     }
     .advert {
         text-align: center;
@@ -123,12 +137,22 @@
     .list_description p {
         padding: 15px;
     }
-        .return_area {
-  padding: 15px;
-}
-.terms_area {
-  padding: 15px;
-}
+    .return_area {
+        padding: 15px;
+    }
+    .terms_area {
+        padding: 15px;
+    }
+    .contact_form {
+        display: none;
+    }
+    .mobile_form {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .header_area h1 {
+        text-align: center;
+    }
 }
 /* Extra Small Devices, Phones */
 
@@ -156,7 +180,7 @@
         float: none;
     }
     .witnesss_area img {
-        min-width: 100%;
+        min-width: 70%;
         padding: 10px;
     }
     .inner_background {
@@ -171,7 +195,7 @@
         margin-left: auto;
         margin-right: auto;
         float: none;
-        min-width: 80%;
+        min-width: 70%;
     }
     .advert {
         text-align: center;
@@ -198,10 +222,20 @@
     #left_list {
         margin-left: 0px;
     }
-        .return_area {
-  padding: 15px;
-}
-.terms_area {
-  padding: 15px;
-}
+    .return_area {
+        padding: 15px;
+    }
+    .terms_area {
+        padding: 15px;
+    }
+    .contact_form {
+        display: none;
+    }
+    .mobile_form {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .header_area h1 {
+        text-align: center;
+    }
 }

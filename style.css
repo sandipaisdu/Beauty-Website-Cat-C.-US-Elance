@@ -436,11 +436,12 @@ More Overviews Area
     margin-bottom: 30px;
 }
 
+
 .scrolled_div {
     height: 400px;
     border: 2px solid #a3a3a3;
     border-radius: 10px;
-    overflow: scroll;
+    overflow-y: auto;
 }
 
 .comments span {
