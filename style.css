@@ -101,12 +101,11 @@ Services Area
     font-family: 'gurmukhi_mnbold';
 }
 
-#left_list{
+#left_list {
     margin-left: 50px;
 }
-#right_list{
 
-}
+#right_list {}
 
 .services_area ul li {
     color: #932cbe;
@@ -158,9 +157,9 @@ Products Area
 }
 
 .products_area img {
-  margin-top: -233px;
-  min-width: 100%;
-  float: right;
+    margin-top: -233px;
+    min-width: 100%;
+    float: right;
 }
 
 .button {
@@ -203,7 +202,8 @@ Products Area
     font-weight: bold;
 }
 
-.first_button {/*
+.first_button {
+    /*
     background-image: url('img/button_arrow.png');
     background-repeat: no-repeat;
     background-position: right top;*/
@@ -245,7 +245,7 @@ Witness  Area
 }
 
 .witnesss_area ul li {
-      font-size: 17px;
+    font-size: 17px;
     text-align: justify;
     font-weight: bold;
     color: #7c7c7c;
@@ -290,7 +290,7 @@ product_description_area
 
 .product_description_area p {
     font-size: 17px;
-      padding: 0px 30px;
+    padding: 0px 30px;
 }
 
 .product_details {
@@ -298,7 +298,7 @@ product_description_area
 }
 
 .plus {
-      background-position: center 370px;
+    background-position: center 370px;
     background-repeat: no-repeat;
     background-image: url('img/plus_bg.png');
 }
@@ -308,12 +308,14 @@ product_description_area
 /**********************************************************************************************************
 Animation  Area Starts
  ***********************************************************************************************************/
-.animation_area{
+
+.animation_area {
     background-image: url('img/horizontal_underline.png');
     background-repeat: no-repeat;
     background-position: bottom center;
     padding-bottom: 40px;
 }
+
 .inner_background {
     background: url('img/vertical_underline.png') no-repeat;
     background-position: bottom center;
@@ -384,8 +386,8 @@ Clients Area
     -webkit-border-image: url('img/horizontal_underline.png') 30 stretch;
     -o-border-image: url('img/horizontal_underline.png') 30 stretch;
     border-image: url('img/horizontal_underline.png') 30 stretch;*/
-    padding-bottom: 55px;
     
+    padding-bottom: 55px;
 }
 
 .clients_area img {
@@ -399,7 +401,7 @@ Customers Love Area
  ***********************************************************************************************************/
 
 .customers_love_area h2 {
-      margin-top: 35px;
+    margin-top: 35px;
     margin-bottom: 25px;
 }
 
@@ -557,16 +559,43 @@ input {
     padding: 10px;
 }
 
-#contact {
-    float: right;
+
+
+
+.stickem-container {
+    position: relative;
+}
+ 
+.stickit {
+      margin-left: 560px;
+  position: fixed;
+  top: 0;
+  width: 400px;
+}
+ 
+.stickit-end {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+#contact {/*
+    float: right;*/
 }
 
-#contact.stick {
+#contact.stick {/*
     position: fixed;
     top: 0;
     margin-left: 565px;
-    width: 400px;
+    width: 400px;*/
 }
+
+
+
+
+
+
+
+
 
 button {
     margin-bottom: 20px;

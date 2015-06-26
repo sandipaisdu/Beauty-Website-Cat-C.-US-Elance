@@ -4,204 +4,204 @@
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
-
-  .logo img {
-  height: 130px;
-  margin: auto;
+    .logo img {
+        height: 130px;
+        margin: auto;
+    }
+    .services h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .services_area img {
+        height: 190px;
+        float: none;
+        margin: auto;
+    }
+    .video_1 {
+        margin-top: 30px;
+    }
+    .products_area img {
+        margin: auto;
+        float: none;
+    }
+    .advert {
+        font-size: 34px;
+        text-align: center;
+    }
+    .witnesss_area img {
+        margin-bottom: 10px;
+        float: none;
+        margin: auto;
+        width: 70%;
+    }
+    .inner_background {
+        background: none;
+    }
+    .row.customer_video p {
+        margin-top: 20px;
+    }
+    .plus {
+        background: none;
+    }
+    #left_list {
+        margin-left: 0px;
+    }
+    .return_area {
+  padding: 15px;
 }
-.services h2 {
-  font-size: 30px;
-  text-align: center;
-}
-.services_area img {
-  height: 190px;
-  float: none;
-  margin: auto;
-}
-.video_1 {
-  margin-top: 30px;
-
-}
-.products_area img {
-  margin: auto;
-  float: none;
-}
-.advert {
-  font-size: 34px;
-  text-align: center;
-}
-.witnesss_area img {
-  margin-bottom: 10px;
-  float: none;
-  margin: auto;
-  width: 70%;
-}
-.inner_background {
-  background: none;
-}
-.row.customer_video p {
-  margin-top: 20px;
-}
-.plus {
-  background: none;
+.terms_area {
+  padding: 15px;
 }
 }
 /* Small Devices, Tablets */
-
-
-
-
-
-
-
-
-
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     .logo img {
         margin: 0 auto;
     }
-
-.header_area h1 {
-  font-size: 40px;
+    .header_area h1 {
+        font-size: 40px;
+    }
+    .product_description {
+        margin-top: 0px;
+    }
+    .services h2 {
+        text-align: center;
+    }
+    .products_area img {
+        height: 600px;
+        min-width: 60%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+    }
+    .inner_background {
+        background: none;
+    }
+    .services_area img {
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        width: 90%
+    }
+    .advert {
+        text-align: center;
+    }
+    .witnesss_area img {
+        margin-bottom: 10px;
+        float: none;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .clients_area img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .row.customer_video p {
+        margin-top: 20px;
+    }
+    .customer_video {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .trial_button_area {
+        padding: 20px;
+    }
+    .plus {
+        background: none;
+    }
+    #left_list {
+        margin-left: 0px;
+    }
+    .tagline {
+        text-align: center;
+        margin-left: 0px;
+    }
+    .list_description p {
+        padding: 15px;
+    }
+        .return_area {
+  padding: 15px;
 }
-
-.product_description {
-  margin-top: 0px;
-}
-
-.services h2 {
-  text-align: center;
-}
-.products_area img {
-  height: 600px;
-  min-width: 60%;
-  float: none;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-}
-
-.inner_background {
-  background:none;
-}
-.services_area img {
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  float: none;
-  width: 90%
-}
-.advert {
-  text-align: center;
-}
-.witnesss_area img {
-  margin-bottom: 10px;
-  float: none;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.clients_area img {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.row.customer_video p {
-  margin-top: 20px;
-}
-.customer_video {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-.trial_button_area {
-  padding: 20px;
-}
-.plus {
-  background: none;
+.terms_area {
+  padding: 15px;
 }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Extra Small Devices, Phones */
 
 @media only screen and (max-width: 480px) {
     .logo img {
         margin: 0 auto;
     }
+    .tagline {
+        text-align: center;
+        margin-left: 0px;
+    }
     .header_area h1 {
-  font-size: 35px;
+        font-size: 35px;
+    }
+    .product_description {
+        margin-top: 0px;
+    }
+    .services h2 {
+        text-align: center;
+    }
+    .products_area img {
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .witnesss_area img {
+        min-width: 100%;
+        padding: 10px;
+    }
+    .inner_background {
+        background: none;
+    }
+    .video_1 {
+        margin-top: 30px;
+        padding: 10px;
+    }
+    .services_area img {
+        height: 390px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        min-width: 80%;
+    }
+    .advert {
+        text-align: center;
+    }
+    .row.customer_video p {
+        margin-top: 20px;
+    }
+    .trial_button_area {
+        padding: 10px;
+    }
+    .reviews_area {
+        padding: 10px;
+    }
+    .customer_video {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .list_description p {
+        padding: 10px;
+    }
+    .plus {
+        background: none;
+    }
+    #left_list {
+        margin-left: 0px;
+    }
+        .return_area {
+  padding: 15px;
 }
-.product_description {
-  margin-top: 0px;
-}
-.services h2 {
-  text-align: center;
-}
-.products_area img {
-  margin-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  float: none;
-}
-.witnesss_area img {
-  min-width: 100%;
-  padding: 10px;
-}
-.inner_background {
-  background:none;
-}
-
-.video_1 {
-  margin-top: 30px;
-
-}
-
-.services_area img {
-  height: 190px;
-  margin-left: auto;
-  margin-right: auto;
-  float: none;
-}
-.advert {
-  text-align: center;
-}
-.row.customer_video p {
-  margin-top: 20px;
-}
-.trial_button_area {
-  padding: 10px;
-}
-.reviews_area {
-
-  padding: 10px;
-}
-.customer_video {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.list_description p {
-  padding: 10px;
-}
-.plus {
-  background: none;
+.terms_area {
+  padding: 15px;
 }
 }
-
-
-
-
-
