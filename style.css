@@ -27,7 +27,7 @@
     font-style: normal;
 }
 
-fonts/ body {
+body {
     font-family: 'gurmukhi_mnregular';
 }
 
@@ -559,43 +559,35 @@ input {
     padding: 10px;
 }
 
-
-
-
 .stickem-container {
     position: relative;
 }
- 
+
 .stickit {
-      margin-left: 560px;
-  position: fixed;
-  top: 0;
-  width: 400px;
+    margin-left: 560px;
+    position: fixed;
+    top: 0;
+    width: 400px;
 }
- 
+
 .stickit-end {
     bottom: 0;
     position: absolute;
     right: 0;
 }
-#contact {/*
+
+#contact {
+    /*
     float: right;*/
 }
 
-#contact.stick {/*
+#contact.stick {
+    /*
     position: fixed;
     top: 0;
     margin-left: 565px;
     width: 400px;*/
 }
-
-
-
-
-
-
-
-
 
 button {
     margin-bottom: 20px;
