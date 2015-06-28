@@ -25,8 +25,11 @@
         margin: auto;
     }
     .video_1 {
-        margin-top: 30px;
-    }
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    max-width: 80%;
+}
     .products_area img {
         margin: auto;
         float: none;
@@ -39,7 +42,7 @@
         margin-bottom: 10px;
         float: none;
         margin: auto;
-        width: 70%;
+        max-width: 80%;
     }
     .inner_background {
         background: none;
@@ -47,6 +50,13 @@
     .row.customer_video p {
         margin-top: 20px;
     }
+    .customer_video {
+    margin: auto;
+    max-width: 80%;
+}
+.customer_video img {
+    max-width: 80%;
+}
     .plus {
         background: none;
     }
@@ -98,7 +108,7 @@
         margin-left: auto;
         margin-right: auto;
         float: none;
-          min-width: 70%;
+          max-width: 80%;
     }
     .advert {
         text-align: center;
@@ -106,21 +116,24 @@
     .witnesss_area img {
         margin-bottom: 10px;
         float: none;
-        width: 70%;
+        max-width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
     .clients_area img {
         margin-top: 20px;
         margin-bottom: 20px;
+        max-width: 50%;
     }
     .row.customer_video p {
         margin-top: 20px;
     }
-    .customer_video {
-        padding-right: 10px;
-        padding-left: 10px;
-    }
+.customer_video {
+    margin: auto;
+    max-width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
     .trial_button_area {
         padding: 20px;
     }
@@ -153,6 +166,10 @@
     .header_area h1 {
         text-align: center;
     }
+    .video_1 {
+    margin: 150px auto 50px;
+    max-width: 80%;
+}
 }
 /* Extra Small Devices, Phones */
 
@@ -180,22 +197,32 @@
         float: none;
     }
     .witnesss_area img {
-        min-width: 70%;
-        padding: 10px;
+
+        width: 50%;
     }
+    .clients_area img {
+    max-width: 50%;
+    padding: 10px;
+}
     .inner_background {
         background: none;
     }
     .video_1 {
-        margin-top: 30px;
-        padding: 10px;
-    }
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    padding: 10px;
+    margin-top: 30px;
+}
+.customer_video img {
+    margin-top: 10px;
+    max-width: 80%;
+}
     .services_area img {
-        height: 390px;
+
         margin-left: auto;
         margin-right: auto;
         float: none;
-        min-width: 70%;
     }
     .advert {
         text-align: center;
@@ -209,10 +236,12 @@
     .reviews_area {
         padding: 10px;
     }
-    .customer_video {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+.customer_video {
+    margin: auto;
+    max-width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
     .list_description p {
         padding: 10px;
     }

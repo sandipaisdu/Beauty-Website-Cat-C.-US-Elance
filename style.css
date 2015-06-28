@@ -158,7 +158,7 @@ Products Area
 
 .products_area img {
     margin-top: -233px;
-    min-width: 100%;
+    /*min-width: 100%;*/
     float: right;
 }
 
@@ -442,6 +442,7 @@ More Overviews Area
     border: 2px solid #a3a3a3;
     border-radius: 10px;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .comments span {
