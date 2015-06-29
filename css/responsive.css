@@ -7,6 +7,12 @@
     .mobile_form {
         display: none;
     }
+    .small_screen{
+        display: none;
+    }
+    .large_screen{
+        display: block;
+    }
 }
 /* Medium Devices, Desktops */
 
@@ -76,6 +82,13 @@
         display: block;
         margin-bottom: 30px;
     }
+    .small_screen{
+        display: block;
+    }
+    .large_screen{
+        display: none;
+    }
+
 }
 /* Small Devices, Tablets */
 
@@ -170,6 +183,12 @@
     margin: 150px auto 50px;
     max-width: 80%;
 }
+.small_screen{
+        display: block;
+    }
+    .large_screen{
+        display: none;
+    }
 }
 /* Extra Small Devices, Phones */
 
@@ -266,5 +285,11 @@
     }
     .header_area h1 {
         text-align: center;
+    }
+    .small_screen{
+        display: block;
+    }
+    .large_screen{
+        display: none;
     }
 }

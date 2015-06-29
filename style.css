@@ -445,6 +445,31 @@ More Overviews Area
     -webkit-overflow-scrolling: touch;
 }
 
+.scrolled_div::-webkit-scrollbar {
+      width: 15px;
+background-color:#F1F1F1;
+}
+
+
+ 
+.scrolled_div::-webkit-scrollbar-thumb {
+      background-color: #BCBCBC/*rgba(0, 0, 0, 0.2)*/; 
+} /* this will style the thumb, ignoring the track */
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 .comments span {
     color: #f2df09;
 }
